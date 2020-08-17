@@ -1,0 +1,2333 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tupc/ontologies/2020/5/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/tupc/ontologies/2020/5/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:mydatabase="urn:absolute:127.0.0.1/5000/mydatabase#"
+     xmlns:untitled-ontology-4="http://www.semanticweb.org/tupc/ontologies/2020/5/untitled-ontology-4#">
+    <owl:Ontology rdf:about="urn:absolute:127.0.0.1/5000/mydatabase"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cài_đặt -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cài_đặt">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cách_sử_dụng -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cách_sử_dụng"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Khai_báo -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Khai_báo">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Khái_niệm -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Khái_niệm">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Khởi_tạo_giá_trị_cho_mảng -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Khởi_tạo_giá_trị_cho_mảng">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Lý_do_sử_dụng -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Lý_do_sử_dụng"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Nhược_điểm -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Nhược_điểm"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Nhập_các_phần_tử -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Nhập_các_phần_tử">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Sao_chép -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Sao_chép">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Sắp_xếp -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Sắp_xếp">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thuộc_về -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thuộc_về"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thêm_và_xóa_một_phần_tử -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thêm_và_xóa_một_phần_tử">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Truy_cập_vào_vùng_nhớ -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Truy_cập_vào_vùng_nhớ">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Truyển_mảng_vào_hàm -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Truyển_mảng_vào_hàm">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tác_dụng -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tác_dụng"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tên_chương -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tên_chương">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tìm_kiếm_phần_tử -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tìm_kiếm_phần_tử">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Xuất_các_phần_tử -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Xuất_các_phần_tử">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Các_thao_tác"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Ưu_điểm -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Ưu_điểm"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bao_gồm -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bao_gồm"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thuộc_về -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thuộc_về">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bậc_của_một_cây -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bậc_của_một_cây">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bậc_của_một_nút -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bậc_của_một_nút">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cài_đặt -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cài_đặt"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Khái_niệm -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Khái_niệm"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Mức_của_một_nút -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Mức_của_một_nút"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thao_tác -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thao_tác"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tên_chương -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tên_chương"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Ý_tưởng -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Ý_tưởng"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Độ_phức_tạp_của_thuật_toán -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Độ_phức_tạp_của_thuật_toán">
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biến -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biến">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3"/>
+        <mydatabase:Cài_đặt>#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+         //Tạo biến a, không có giá trị ban đầu
+         int a;  
+         // Có 2 kiểu khởi tạo giá trị ban đầu cho 1 biến
+
+         // Khởi tạo sao chép giá trị cho biến với toán tử gán =
+         int b = 10;	
+
+         // Khởi tạo trực tiếp giá trị cho biến với dấu ngoặc đơn ()
+         int c(10);
+
+        // Khai báo nhiều biến không có khởi tạo
+       int d,e,f;
+       
+       // Khai báo nhiều biến có khởi tạo
+       int      ai= 1, ml =0;
+
+       //Gán giá trị cho biến
+       int g;
+       g= 2020;   //giá trị 2020 được gán cho biến g
+}</mydatabase:Cài_đặt>
+        <mydatabase:Cách_sử_dụng>&quot;Một biến có 1 kiểu dữ kiệu cụ thể tại 1 thời điểm
+Giá trị biến có thể thay đổi
+
+int sn; // biến sn có kiểu dữ liệu số nguyên&quot;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Là một ô nhớ hoặc 1 vùng nhớ dùng để chứa dữ liệu trong qua trình thực hiện chương trình</mydatabase:Khái_niệm>
+        <mydatabase:Nhược_điểm>Không như một số ngôn ngữ lập trình khác, C/C++ không tự động khởi tạo một giá trị cho biến. Khi bạn khai báo một biến mà không khởi tạo hoặc gán giá trị cho biến đó, thì giá trị của biến đó có thể là một giá trị rác nào đó trong vùng nhớ.
+Vì vậy, nếu bạn sử dụng một biến mà chưa được khởi tạo, chương trình sẽ cho ra những kết quả không mong muốn (hoặc có thể gặp lỗi ngay lúc compile chương trình).</mydatabase:Nhược_điểm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+        <mydatabase:Ưu_điểm>C++ cho phép định nghĩa các biến ở bất kỳ đâu trong hàm, khuyến khích gần nơi sử dụng biến đó.</mydatabase:Ưu_điểm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biến_cục_bộ -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biến_cục_bộ">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biến"/>
+        <mydatabase:Cài_đặt>int main()
+{
+     int n;         // n khai báo vào khởi tạo giá trị
+     double d(9.0);    // d n khai báo vào khởi tạo giá trị
+
+     cout &lt;&lt; &quot;Nhập n: &quot;;
+     cin &gt;&gt; n;
+     cout &lt;&lt; &quot;Kết quả: &quot; &lt;&lt; n &lt;&lt; endl;
+
+     return 0;
+} // n và d đều bị hủy khi hàm main() kết thúc.</mydatabase:Cài_đặt>
+        <mydatabase:Khái_niệm>Biến được định nghĩa bên trong một khối lệnh (block) được gọi là các biến cục bộ (Local variables).
+
+-Các biến cục bộ có thời gian tự động, có nghĩa là chúng được tạo tại thời điểm định nghĩa, và bị hủy khi ra khỏi khối lệnh mà biến đó được định nghĩa.
+-Các biến cục bộ có phạm vi bên trong khối lệnh (còn được gọi là phạm vi cục bộ), nghĩa là sẽ không truy cập được biến khi ở bên ngoài khối lệnh.</mydatabase:Khái_niệm>
+        <mydatabase:Nhược_điểm>Biến được định nghĩa bên trong một khối lệnh chỉ có thể được nhìn thấy trong khối lệnh đó.</mydatabase:Nhược_điểm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+        <mydatabase:Ưu_điểm></mydatabase:Ưu_điểm>
+        <mydatabase:Ưu_điểm>-Khối lệnh lồng nhau được coi là một phần của khối lệnh bên ngoài, nơi biến được định nghĩa. Do đó, các biến được định nghĩa trong khối lệnh bên ngoài có thể được nhìn thấy bên trong một khối lệnh lồng nhau.
+-Hàm (function) có thể có các biến (variables) hoặc các tham số (parameters) với tên giống như các hàm (function) khác. Nghĩa là bạn không cần lo lắng về việc đặt tên xung đột giữa hai hàm (function) độc lập.</mydatabase:Ưu_điểm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biến_toàn_cục -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biến_toàn_cục">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biến"/>
+        <mydatabase:Cài_đặt>#include &lt;iostream&gt;
+using namespace std;
+
+int x;                      //Biến toàn cục x
+const int y(2);	// Biến toàn cục y và gắn giá trị y=2
+
+void doSomething()
+{
+            cout &lt;&lt;y &lt;&lt; &quot;\n&quot;; //Output  2
+}
+
+int main()
+{ 
+           doSomething();
+           x = 5;
+           cout &lt;&lt; x&lt;&lt;&apos;  &apos; &lt;&lt;y &lt;&lt; &quot;\n&quot;; // Output 5 2
+           return 0;
+}</mydatabase:Cài_đặt>
+        <mydatabase:Khái_niệm>Các biến khai báo bên ngoài của khối lệnh, và thương dược định nghĩa phần đầu của source code file
+Biến toàn cục có thời gian tĩnh, nghĩa là chúng được tạo ra khi chương trình bắt đầu và bị hủy khi nó kết thúc. Các biến toàn cục có phạm vi tập tin (file scope), hay gọi là &quot;phạm vi toàn cầu&quot; (global scope) hoặc &quot;phạm vi không gian tên toàn cầu&quot; (global namespace scope).</mydatabase:Khái_niệm>
+        <mydatabase:Nhược_điểm>Biến toàn cục là một trong những khái niệm bị lạm dụng nhất trong lập trình. Mặc dù nó có vẻ vô hại trong các chương trình nhỏ, nhưng lại thường cực kỳ nguy hiểm ở những chương trình lớn.
+
+Lập trình viên mới thường có thói quen sử dụng rất nhiều biến toàn cục, vì sử dụng nó khá đơn giản, bạn chỉ khai báo một lần và sử dụng nó trong tất cả các hàm của chương trình nếu bạn muốn. Tuy nhiên, đây không phải là một ý tưởng hay.
+
+Biến toàn cục (non-const) nguy hiểm vì giá trị của nó có thể được thay đổi bởi bất cứ hàm nào mỗi khi hàm đó được gọi. Khiến lập trình viên khó kiểm soát được chuyện gì đang xảy ra với biến toàn cục của mình.
+
+Mỗi hàm thực hiện một chức năng khác nhau, truyền dữ liệu thông qua tham số (paramater), và nó hoạt động độc lập với nhau. Một hàm sử dụng biến toàn cục sẽ không thể tái sử dụng, và hoạt động độc lập được.</mydatabase:Nhược_điểm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+        <mydatabase:Ưu_điểm>&quot;Biến toàn cục sẽ giữ giá trị của biến xuyên suốt chương trình
+Tất cả các hàm có thể truy cập biến toàn cục&quot;</mydatabase:Ưu_điểm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_1 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_1">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_2 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_2">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_3 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_4 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_4">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_5 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_5">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_6 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_6">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_7 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_7">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_8 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_8">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình_mã_máy -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình_mã_máy">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cpu"/>
+        <mydatabase:Khái_niệm>Gồm tập hợp các chỉ thị được viết bằng các lệnh CPU - Được lưu trên đĩa dưới dạng 1 tâp tin mã thực thi</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 1</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+        <mydatabase:Cách_sử_dụng>&quot;&lt;kiểu_dữ_liệu&gt;*&lt;tên_biến_con_trỏ&gt; = &amp;&lt;tên biến&gt;
+int a;
+int *ptr = &amp;a;&quot;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khai_báo>Biến con trỏ (pointer variable) được khai báo giống như các biến thông thường, nhưng có thêm một dấu sao (*) giữa kiểu dữ liệu và tên biến.
+
+int *iPtr; // con trỏ đến 1 địa chỉ chứa giá trị số nguyên
+double *dPtr; // con trỏ đến 1 địa chỉ chứa giá trị số thực
+int *iPtr4, *iPtr5; // khai báo 2 con trỏ đến các biến số nguyên
+
+int* iPtr2; // đúng cú pháp (nhưng không nên sử dụng)
+int * iPtr3; // đúng cú pháp (nhưng không nên sử dụng)
+
+Mặt khác:
+Khi trả về một con trỏ từ một hàm, sẽ rõ ràng hơn nếu đặt dấu sao (*) bên cạnh kiểu trả về:
+int* functioner();
+
+Lưu ý:
+Khi địa chỉ của biến value được gán cho con trỏ ptr:
+
+ptr tương đương với &amp;value
+*ptr được xử lý giống như value
+Vì *ptr được xử lý giống như value, nên ta có thể gán giá trị cho *ptr như 1 biến thông thường:</mydatabase:Khai_báo>
+        <mydatabase:Khái_niệm>Là một biến lưu trữ địa chỉ của một địa chỉ bộ nhớ. Địa chỉ này thường là địa chỉ của một biến khác
+Kiểu con trỏ dùng lưu địa chỉ của một đối tượng dữ liệu khác.
+Biến thuộc kiểu con trỏ T p là biến mà giá trị của nó là địa chỉ cuả một vùng nhớ ứng với một biến kiểu T, hoặc là giá trị NULL.</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 7</mydatabase:Thuộc_về>
+        <mydatabase:Truy_cập_vào_vùng_nhớ>Khi biến con trỏ đã được trỏ đến một địa chỉ nào đó, ta có thể truy xuất giá trị tại địa chỉ đó bằng toán tử trỏ (*)
+
+Code:
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	int value = 10;
+	cout &lt;&lt; &amp;value &lt;&lt; &quot;\n&quot;; // in địa chỉ biến value
+	cout &lt;&lt; value &lt;&lt; &quot;\n&quot;; // in giá trị biến value
+
+	int *ptr = &amp;value; // ptr trỏ đến biến value
+	cout &lt;&lt; ptr &lt;&lt; &quot;\n&quot;; // in địa chỉ con trỏ ptr trỏ đến, tương đương &amp;value
+	cout &lt;&lt; *ptr &lt;&lt; &quot;\n&quot;; // in giá trị tại địa chỉ mà ptr trỏ đến , tương đương value
+
+	return 0;
+}</mydatabase:Truy_cập_vào_vùng_nhớ>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ_NULL -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ_NULL">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ"/>
+        <mydatabase:Khai_báo>float *ptr{ 0 };  // ptr là 1 con trỏ null
+
+float *ptr2; // ptr2 là con trỏ rác
+ptr2 = 0; // ptr2 là 1 con trỏ null
+Ta có thể sử dụng một điều kiện để kiểm tra xem một con trỏ có null hay không:
+double *ptr{ 0 };
+
+// con trỏ sẽ chuyển thành true nếu nó null, và false nếu nó không null
+if (ptr)
+	cout &lt;&lt; &quot;con trỏ trỏ đến địa chỉ.&quot;;
+else
+	cout &lt;&lt; &quot;con trỏ null.&quot;;</mydatabase:Khai_báo>
+        <mydatabase:Khái_niệm>Tương tự như các biến thông thường, con trỏ không được khởi tạo khi khai báo. Nếu con trỏ không được khởi tạo một giá trị, chúng sẽ chứa giá trị rác.
+
+Ngoài địa chỉ vùng nhớ, có một giá trị mà con trỏ có thể giữ được, đó là giá trị null. Null là một giá trị đặc biệt, điều đó có nghĩa là con trỏ đó chưa trỏ đến địa chỉ nào cả. Con trỏ đang giữ giá trị null được gọi là con trỏ null (null pointer).</mydatabase:Khái_niệm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cpu -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cpu">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_1"/>
+        <mydatabase:Khái_niệm>Thực hiện các chương trình mã máy đã được hệ điều hành(HĐH) nạp vào RAM của máy tính</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Câu_chú_thích -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Câu_chú_thích">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <mydatabase:Cách_sử_dụng>&quot;Cách 1: Viết chú thích trong /* chú thích */
+/* dãy chú thích 1
+dãy chú thích 2 ... */
+Cách 2: Viết chú thích trên 1 dòng //chú thích
+//Day chu thich 1
+//Day chu thich 2&quot;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Dùng để mô tả hoặc ghi chú trong source code - Giúp dễ dàng đọc code sau này</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Câu_lệnh -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Câu_lệnh">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <mydatabase:Khái_niệm>Một câu lệnh (statement) xác định một công việc mà chương trình phải thực hiện</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 4</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấp_phát_tĩnh -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấp_phát_tĩnh">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ"/>
+        <mydatabase:Nhược_điểm>Tốn bộ nhớ, không thay đổi được kích thước</mydatabase:Nhược_điểm>
+        <mydatabase:Tên_chương>Chương 7</mydatabase:Tên_chương>
+        <mydatabase:Ưu_điểm>Bắt buộc phải biết trước cần bao nhiêu bộ nhớ lưu trữ</mydatabase:Ưu_điểm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấp_phát_động -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấp_phát_động">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ"/>
+        <mydatabase:Tên_chương>Chương 7</mydatabase:Tên_chương>
+        <mydatabase:Ưu_điểm>Cần bao nhiêu cấp bấy nhiêu
+Có thể giải phóng nếu không sử dụng
+Sử dụng vùng nhớ ngoài chương trình</mydatabase:Ưu_điểm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_for -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_for">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_lặp"/>
+        <mydatabase:Cài_đặt>Cấu trúc vòng lặp for
+for (init-statement; condition-expression; end-expression)
+{
+    statements;
+}
+Các thuộc tính:
+-init-statement: phần này có mục đích định nghĩa và khởi tạo biến, chỉ được thực thi 1 lần duy nhất trong lần lặp đầu tiên.
+-condition-expression: phần này gồm các biểu thức điều kiện, nếu biểu thức điều kiện đúng, các câu lệnh trong vòng lặp sẽ được thực thi.
+-end-expression: phần này được thực thi cuối mỗi lần lặp, sau khi các câu lệnh trong vòng lặp for được thực thi. Phần này thường có mục đích tăng hoặc giảm giá trị các biến vòng lặp. Sau khi thực thi xong, vòng lặp quay lại kiểm tra điều kiện lặp ở bước 2.
+
+Ví dụ:
+for (int dem = 0; dem &lt; 10; dem++)
+	cout &lt;&lt; dem&lt;&lt; &quot; &quot;; //output: 0 1 2 3 4 5 6 7 8 9
+
+-Trong trương hợp có nhiều biến thay đổi trong vòng lắp thì có thể sử dụng như sau
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	for (int i = 5, j = 10; i + j &lt; 20; i++, j++) //i,j cùng thay đổi
+	{
+		cout &lt;&lt; i &lt;&lt; &quot; + &quot; &lt;&lt; j &lt;&lt; &quot; = &quot; &lt;&lt; (i + j) &lt;&lt; &apos;\n&apos;;
+	}
+
+	return 0;
+}
+
+-Vòng lặp lồng nhau:
+for (int i = 0; i &lt;= 5; i++)
+	{
+		for (int j = 0; j &lt;= i; j++)
+		{
+			cout &lt;&lt; j &lt;&lt; &quot; &quot;;
+		}
+		cout &lt;&lt; endl;
+	}
+
+
+-Có một vài trương hợp chương trinh sẽ sử dụng vòng for vô hạn như
+for (;;)
+{
+	cout &lt;&lt; &quot;Vòng lặp vô hạn&quot;;
+}
+Tương đương với:
+while (true)
+{
+	statements;
+}</mydatabase:Cài_đặt>
+        <mydatabase:Khái_niệm>Vòng lặp for là một cấu trúc lặp được sử dụng nhiều nhất trong ngôn ngữ C++, nó hoàn toàn có thể thay thế cho vòng lặp while. Lập trình viên thường sử dụng vòng lặp for khi biết trước số lần lặp của vòng lặp.</mydatabase:Khái_niệm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_if_else -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_if_else">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_rẽ_nhánh"/>
+        <mydatabase:Cài_đặt>if (condition)    // nếu condition là true
+    statement;    // thực thi câu lệnh này
+
+Hoặc
+
+if (condition)    // nếu condition là true
+    statement1;    // thực thi câu lệnh này
+else
+    statement2;    // nếu condition là false, thực thi câu lệnh này
+
+Ví dụ:
+#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main()
+{
+                             const string USERNAME(&quot;LamaBanmai&quot;);
+	const string PASSWORD(&quot;123123&quot;);
+	string password;
+                             string userName;
+                             cout &lt;&lt; &quot;Nhập username: &quot;;
+	getline(cin, userName);
+
+	cout &lt;&lt; &quot;Nhập password: &quot;;
+	getline(cin, password);
+
+	if ((password == PASSWORD)  &amp;&amp; (userName == USERNAME)
+		cout &lt;&lt; &quot;Đăng nhập thành công!&quot;;
+                             else
+		cout &lt;&lt; &quot;Đăng nhập thất bại!&quot; &lt;&lt; endl;
+	return 0;
+}</mydatabase:Cài_đặt>
+        <mydatabase:Ưu_điểm>Có thể sử dụng nhiều khối lệnh if else chồng lên nhau.
+Phần điều kiện có thể là tập hợp nhiều điều kiện bằng cách sử dụng các toán tử để nối &amp;&amp;(và) hay là ||(hoặc)</mydatabase:Ưu_điểm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_lặp -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_lặp">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_điều_khiển"/>
+        <mydatabase:Cách_sử_dụng>Cấu trúc for
+Cấu trúc while
+Cấu trúc do while</mydatabase:Cách_sử_dụng>
+        <mydatabase:Thuộc_về>Chương 4</mydatabase:Thuộc_về>
+        <mydatabase:Tác_dụng>Lặp 1 khối lệnh nào đó</mydatabase:Tác_dụng>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_rẽ_nhánh -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_rẽ_nhánh">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_điều_khiển"/>
+        <mydatabase:Cách_sử_dụng>Cấu trúc if else
+Cấu trúc switch case</mydatabase:Cách_sử_dụng>
+        <mydatabase:Thuộc_về>Chương 4</mydatabase:Thuộc_về>
+        <mydatabase:Tác_dụng>Chia các trường hợp của vấn đề</mydatabase:Tác_dụng>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_switch_case -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_switch_case">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_rẽ_nhánh"/>
+        <mydatabase:Cài_đặt>switch (expression)
+{
+    case constant_1:
+    {
+        Statements;
+        break;
+    }
+    case constant_2:
+    {
+        Statements;
+        break;
+    }
+    // ...
+    case constant_n:
+    {
+        Statements;
+        break;
+    }
+    default:
+    {
+        Statements;
+    }
+}
+-Expression là một biến (hoặc biểu thức) có giá trị kiểu số nguyên (char, short, int, long, int32_t, enum, ...).
+-Case labels (nhãn trường hợp) sử dụng từ khóa case, đi sau nó là một hằng số (số nguyên, các hằng kí tự hoặc biểu thức hằng). Số lượng các case labels là không giới hạn, và không có trường hợp trùng nhau giữa các case.
+-Default label (nhãn mặc định) sử dụng từ khóa default. Nếu không có case label nào tương ứng với giá trị của expression của switch, default label sẽ được thực thi. Default label có thể không có hoặc chỉ có 1.
+-Từ khóa break có thể sử dụng hoặc không. Nếu không được sử dụng thì chương trình sẽ không kết thúc cấu trúc switch…case khi đã thực hiện hết khối code của case label có giá trị bằng với biểu thức nguyên. Thay vào đó, nó sẽ thực hiện tiếp các khối codes tiếp theo cho đến khi gặp từ khoá break hoặc dấu “}“ cuối cùng của cấu trúc switch…case.
+Ví dụ:
+#include &lt;iostream&gt;
+using namespace std;
+
+const int SUNDAY = 1;
+const int MONDAY = 2;
+const int TUESDAY = 3;
+const int WEDNESDAY = 4;
+const int THURSDAY = 5;
+const int FRIDAY = 6;
+const int SATURDAY = 7;
+
+int main()
+{
+	int dayOfWeek(TUESDAY);
+
+	switch (dayOfWeek)
+	{
+	case SUNDAY:
+		cout &lt;&lt; &quot;Sunday&quot; &lt;&lt; endl;
+		break;
+	case MONDAY:
+		cout &lt;&lt; &quot;Monday&quot; &lt;&lt; endl;
+		break;
+	case TUESDAY:
+		cout &lt;&lt; &quot;Tuesday&quot; &lt;&lt; endl;
+		break;
+	case WEDNESDAY:
+		cout &lt;&lt; &quot;Wednesday&quot; &lt;&lt; endl;
+		break;
+	case THURSDAY:
+		cout &lt;&lt; &quot;Thursday&quot; &lt;&lt; endl;
+		break;
+	case FRIDAY:
+		cout &lt;&lt; &quot;Friday&quot; &lt;&lt; endl;
+		break;
+	case SATURDAY:
+		cout &lt;&lt; &quot;Saturday&quot; &lt;&lt; endl;
+		break;
+	default:
+		cout &lt;&lt; &quot;Unknown&quot; &lt;&lt; endl;
+		break;
+	}
+	return 0;
+}</mydatabase:Cài_đặt>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_tuần_tự -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_tuần_tự">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_điều_khiển"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_while -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_while">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_lặp"/>
+        <mydatabase:Cài_đặt>Cấu trúc vòng lặp while:
+while (expression)
+{
+    statements;
+}
+Nếu expression là true (khác 0), các câu lệnh bên trong khối lệnh sẽ được thực thi. Nếu vòng lặp while thực thi nhiều câu lệnh, bạn cần đặt các câu lệnh vào khối ngoặc nhọn {}.
+
+Ví dụ:
+Xuất tất cả các số chẵn trong phạm vi 1 -&gt; 2000
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	int count(2);
+	while (count &lt;= 2000)
+	{        
+	              cout &lt;&lt; count &lt;&lt; &quot; &quot;;
+	              count+=2;
+	 }
+                              cout &lt;&lt; &quot;Hoàn thành!&quot; &lt;&lt; endl;
+
+	return 0;
+}
+
+Vòng lặp lồng nhau:
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	// Vòng lặp 1-&gt;5
+	int outer(1);
+	while (outer &lt;= 5)
+	{
+		//Vòng lặp trong phạm vi 1 đến outer
+		int inner(1);
+		while (inner &lt;= outer)
+		{
+			cout &lt;&lt; inner &lt;&lt; &quot; &quot;;
+			++inner;
+		}
+		cout &lt;&lt; &quot;\n&quot;;
+		++outer;
+	}
+	return 0;
+}</mydatabase:Cài_đặt>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_điều_khiển -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_điều_khiển">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_4"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Dữ_liệu -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Dữ_liệu"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Enum -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Enum">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc"/>
+        <mydatabase:Khái_niệm>Kiểu dữ liệu giúp hỗ trợ định nghĩa những giá trị liệt kê</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Hàm -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Hàm">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <rdfs:comment>Cách hoạt động của hàm
+-Chương trình của bạn sẽ nhảy tới nơi định nghĩa hàm đó và thực thi các lệnh từ trên xuống dưới ở trong hàm đó.
+-Khi hàm thực hiện xong, chương trình tiếp tục quay về thực hiện các lệnh phía sau lời gọi hàm.</rdfs:comment>
+        <mydatabase:Cách_sử_dụng>Hàm xuất nhập thông tin:printf(), scanf()
+Hàm toán học: sqrt(), pow(), abs(), sin()
+Hàm tự viết.</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Là một nhóm lệnh đi cùng nhau để thực hiện 1 nhiệm vụ</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 5</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Hằng -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Hằng">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <mydatabase:Cài_đặt>Cách 1: Sử dụng const
+
+const double P{ 3.14159 };                                     // Cách này thông dụng hơn
+
+double const SPEED_OF_SOUND{ 343.2 };      // Cách này ít được sử dụng
+
+//Tạo 1 hằng bằng biến khai báo sẵn
+int nHeight = 169;
+const int HEIGHT{ nHeight };
+
+Cách 2: Sử dụng #define
+Code:
+#include &lt;iostream&gt;
+using namespace std;
+
+// Định nghĩa một macro bằng chỉ thị tiền xử lý #define
+#define YEAR_OF_BIRTH 2000
+
+int main()
+{
+	cout &lt;&lt; &quot;Year of birth: &quot; &lt;&lt; YEAR_OF_BIRTH &lt;&lt; endl;
+
+	// Khởi tạo một biến integer với giá trị 2000
+	int nYear{ YEAR_OF_BIRTH };
+
+	return 0;
+}
+
+Có thể sử dụng #define để đặt lại giá trị của giá trị hằng</mydatabase:Cài_đặt>
+        <mydatabase:Cách_sử_dụng>Cách 1:Để khai báo một hằng số trong C++, bạn sử dụng từ khóa const trước hoặc sau kiểu dữ liệu của biến:
+
+Cách 2: C++ vẫn cho phép bạn sử dụng chỉ thị tiền xử lý #define để định nghĩa một macro sử dụng như một hằng số(Phương pháp này thường thấy trong những hệ thống cũ, hiện nay ít được sử dụng hơn vì những hạn chế của nó).
+
+Ở những chương trình đơn giản, bạn có thể định nghĩa một hằng số ở phạm vi toàn cục để có thể sử dụng ở mọi nơi trong file của bạn.</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Là đối tượng mà giá trị của nó không bao giờ thay đổi đảm bảo cho việc không bị thay đổi trong quá trình thực hiện</mydatabase:Khái_niệm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Hệ_đếm -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Hệ_đếm">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <mydatabase:Khái_niệm>Một tập các ký hiệu(bảng chữ số) để biểu diễn các số và các định giá trị của các biểu diễn số</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 1</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Khối_lệnh -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Khối_lệnh">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <mydatabase:Khái_niệm>Một dãy các câu lệnh được bao bởi các dấu { và }  (trong c++)</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 4</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_danh_sách -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_danh_sách">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc"/>
+        <mydatabase:Khái_niệm>Danh sách= { các phần tử có cùng kiểu}
+Danh sách là một kiểu dữ liệu tuyến tính:
+Mỗi phần tử có nhiều nhất 1 phần tử đứng trước
+Mỗi phần tử có nhiều nhất 1 phần tử đứng sau</mydatabase:Khái_niệm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Dữ_liệu"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_ký_tự -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_ký_tự">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+        <mydatabase:Cách_sử_dụng>char c
+Thì c sẽ có các giá trị là ký tự thuộc bảng ASCII
+Ví dụ: a.b;c,1 2\3{}#@</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khai_báo>Khởi tạo và gán giá trị cho một biến kiểu ký tự trong C++, bạn sử dụng từ khóa char:
+
+char ch1{ &apos;K&apos; };// khởi tạo biến character với ký tự &apos;K&apos; (mã ASCII 75)
+char ch2{ 75 };// khởi tạo biến character với mã ASCII 75 (ký tự &apos;K&apos;)
+char ch3(75);	// khởi tạo biến character với mã ASCII 75 (ký tự &apos;K&apos;)
+char ch4 = &apos;K&apos;;// khởi tạo biến character với ký tự &apos;K&apos; (mã ASCII 75)
+
+char ch5;	// khai báo biến kiểu character
+ch1 = 75;	// gán mã ASCII 75 (ký tự &apos;K&apos;) cho biến character</mydatabase:Khai_báo>
+        <mydatabase:Khái_niệm>Tập hợp các ký tự thuộc bảng ASCII</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_luận_lý -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_luận_lý">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+        <mydatabase:Cách_sử_dụng>Khai báo
+bool b
+Thì b có 2 giá trị &apos;true&apos; và &apos;false&apos;
+Nếu b=0 thí sẽ ép kiểu b có giá trị giống &apos;false&apos;
+Còn các giá trị khác b sẽ tự ép kiểu là &apos;true&apos;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Kiểu dữ liệu luận lý (đúng/sai)</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+        <mydatabase:Tác_dụng>Một biến kiểm tra đúng sai</mydatabase:Tác_dụng>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_số_nguyên -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_số_nguyên">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+        <mydatabase:Cách_sử_dụng>&quot;short int, int, unsigned short int
+long, long long, unsigned long long
+12. -12, 20030, -32321&quot;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khai_báo>Sử dụng từ khóa int, short int, long, long long
+
+int a; //khai báo số tự nhiên a
+long long a=2; //khai báo biến tự nhiên a có giá trị là 2
+
+Số nguyên không dấu là những số nguyên dương (1, 2, 3, …) và số 0. Đôi khi chương trình của bạn có những biến không cần lưu trữ các số âm (Ví dụ: chiều cao, cân nặng, độ dài, chỉ số danh sách, …). Để khai báo số nguyên không dấu, bạn sử dụng từ khóa unsigned.
+
+unsigned int un;</mydatabase:Khai_báo>
+        <mydatabase:Khái_niệm>Tập hợp các số nguyên</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_số_thực -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_số_thực">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+        <mydatabase:Cách_sử_dụng>&quot;float, double, long double
+3.14  1.257E+ 01=12.57&quot;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khai_báo>Sử dụng các từ khóa float, double, long double
+
+long double f; //khai báo biến số thực f
+float ff=3.0; //khai bao biến số thực ff và có giá trị là 3.0</mydatabase:Khai_báo>
+        <mydatabase:Khái_niệm>Tập hợp các số thực</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_void -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_void">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+        <mydatabase:Khái_niệm>Kiểu dữ liệu trống không chứa gì cả</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Mảng -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Mảng">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_danh_sách"/>
+        <mydatabase:Khái_niệm>Mảng là:
+
+-Một kiểu dữ liệu có cấu trúc do người lập trình định nghĩa.
+-Biểu diễn một dãy các biến có cùng kiểu. Ví dụ: dãy các số nguyên, dãy các ký tự…
+-Kích thước được xác định ngay khi khai báo và không bao giờ thay đổi (mảng tĩnh).
+-C++ luôn chỉ định một khối nhớ liên tục cho một biến kiểu mảng.</mydatabase:Khái_niệm>
+        <mydatabase:Lý_do_sử_dụng>Một công ty có nhu cầu xây dựng phần mềm lưu trữ mức lương của từng nhân viên để tiện cho việc quản lý. Giả sử:
+
+Công ty có 3 nhân viên =&gt; Khai báo 3 biến int salary1, salary2, salary3;
+Công ty có 100 nhân viên =&gt; Khai báo 100 biến int salary1, …;
+Công ty có 1000 nhân viên =&gt; Không thực hiện được !!!
+Để giải quyết những vấn đề đó, C++ cho phép lập trình viên có thể xây dựng kiểu dữ liệu đáp ứng nhu cầu lưu trữ và quản lý nhiều đối tượng cùng kiểu trong một định danh, nó được gọi là kiểu dữ liệu mảng (arrays).
+
+Sử dụng mảng để giải quyết vấn đề trên</mydatabase:Lý_do_sử_dụng>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Mảng_1_chiều -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Mảng_1_chiều">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Mảng"/>
+        <mydatabase:Cài_đặt>Cú pháp:
+&lt;kiểu dữ liệu&gt; &lt;tên biến mảng&gt;[&lt;số phần tử&gt;];
+
+Lưu ý:
+
+Phải xác định &lt;số phần tử&gt; cụ thể (hằng số) khi khai báo.
+Nên sử dụng chỉ thị tiền xử lý #define để định nghĩa &lt;số phần tử&gt; mảng.
+Một mảng liên tục có chỉ số từ 0 đến &lt;tổng số phần tử&gt; - 1.
+Bộ nhớ sử dụng = &lt;tổng số phần tử&gt; * sizeof(&lt;kiểu cơ sở&gt;).</mydatabase:Cài_đặt>
+        <mydatabase:Cài_đặt>Cấu trúc:
+&lt;kiểu dữ liệu&gt; &lt;tên biến mảng&gt;[&lt;số phần tử&gt;];
+Lưu ý:
+-Phải xác định &lt;số phần tử&gt; cụ thể (hằng số) khi khai báo.
+-Nên sử dụng chỉ thị tiền xử lý #define để định nghĩa &lt;số phần tử&gt; mảng.
+-Một mảng liên tục có chỉ số từ 0 đến &lt;tổng số phần tử&gt; - 1.
+-Bộ nhớ sử dụng = &lt;tổng số phần tử&gt; * sizeof(&lt;kiểu cơ sở&gt;).</mydatabase:Cài_đặt>
+        <mydatabase:Cách_sử_dụng>Một dãy có cùng kiểu dữ liệu
+bool t_f[10];
+int a[2131];</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Là biểu diễn một dãy các phần tử có cùng kiểu dữ liệu và mỗi phần tử trong mảng biểu diễn 1 giá trị.</mydatabase:Khái_niệm>
+        <mydatabase:Khởi_tạo_giá_trị_cho_mảng>Cách 1: Khởi tạo giá trị cho mọi phần tử của mảng
+int array[4] = { 5, 8, 2, 7 };
+Cách 2: Khởi tạo giá trị cho một số phần tử đầu mảng
+int array[4] = { 5, 8 };
+Cách 3: Khởi tạo giá trị 0 cho mọi phần tử của mảng
+int array[4] = { };
+Cách 4: Tự động xác định số lượng phần tử
+int array[] = { 5, 8, 2, 7 };
+Cách 5: Sử dụng khởi tạo đồng nhất (uniform initialization) trong C++11
+int array1[4] { 5, 8, 2, 7 }; // 5 8 2 7
+int array2[4] { 5, 8 }; // 5 8 0 0
+int array3[4] { }; // 0 0 0 0
+int array4[] { 5, 8, 2, 7 }; // 5 8 2 7</mydatabase:Khởi_tạo_giá_trị_cho_mảng>
+        <mydatabase:Nhập_các_phần_tử>Để gán giá trị cho phần tử trong mảng, ta sử dụng cú pháp:
+&lt;tên biến mảng&gt;[&lt;chỉ số thứ i&gt;] = &lt;giá trị&gt;;
+Trong đó:
+
+&lt;chỉ số thứ i&gt; là chỉ số phần tử trong mảng.
+Nếu mảng có N phần tử, &lt;chỉ số thứ i&gt; sẽ nằm trong khoảng từ 0 đến N – 1.
+Ví dụ:
+-Các phép gán hợp lệ:
+string Hoso[3];
+Hoso[0] = &quot;Pham Xuan Thien!&quot;;
+Hoso[1] = &quot;Tran Tuan Vi&quot;;
+Hoso[2] = &quot;Tran Anh Quan&quot;;
+
+-Các phép gán KHÔNG hợp lệ (gây chết chương trình):
+string Hoso[3];
+Hoso[-1] = &quot;Pham Xuan Thien!&quot;;
+Hoso[10] = &quot;Tran Tuan Vi&quot;;
+Hoso[213] = &quot;Tran Anh Quan&quot;;
+
+Code hoàn chỉnh:
+#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+// định nghĩa số phần tử mảng
+#define MAX 30
+
+int main()
+{
+	int arr[MAX];
+
+	// nhập mảng
+	cout &lt;&lt; &quot;Nhập mảng:&quot; &lt;&lt; endl;
+	for (int i = 0; i &lt; MAX; i++)
+	{
+		cout &lt;&lt; &quot;arr[&quot; &lt;&lt; i &lt;&lt; &quot;] = &quot;;
+		cin &gt;&gt; arr[i];
+	}
+
+	// xuất mảng
+	for (int i = 0; i &lt; MAX; i++)
+	{
+		cout &lt;&lt; arr[i] &lt;&lt; &quot; &quot;;
+	}
+
+	return 0;
+}</mydatabase:Nhập_các_phần_tử>
+        <mydatabase:Sao_chép>Ý tưởng: Để tạo ra một bản sao từ một mảng, bạn cần khai báo thêm 1 mảng khác có cùng kích thước với mảng ban đầu.
+
+Code:
+#include &lt;iostream&gt;
+#include &lt;cstdlib&gt; // for srand() and rand()
+#include &lt;ctime&gt; // for time()
+#include &lt;string&gt;
+using namespace std;
+
+// định nghĩa số phần tử mảng
+#define MAX 1000
+
+// khai báo prototype
+void nhapMang(int arr[], int &amp;n);
+void xuatMang(int arr[], int n);
+void saoChepMangMotChieu(int arrDest[], int arrSource[], int n);
+
+int main()
+{
+	int myArray[MAX]; // mảng myArray có MAX phần tử
+	int nSize; // nSize là số phần tử được sử dụng, do user nhập
+
+	// nhập mảng myArray tự động
+	nhapMang(myArray, nSize);
+
+	// xuất mảng myArray
+	cout &lt;&lt; &quot;myArray: &quot; &lt;&lt; endl;
+	xuatMang(myArray, nSize);
+
+	int myArray2[MAX]; // mảng myArray2 có MAX phần tử
+	
+	// sao chép mảng myArray sang myArray2
+	saoChepMangMotChieu(myArray2, myArray, nSize);
+
+	// xuất mảng myArray2 sau khi sao chép
+	cout &lt;&lt; &quot;myArray2: &quot; &lt;&lt; endl;
+	xuatMang(myArray2, nSize);
+
+	return 0;
+}
+
+// hàm nhập mảng
+void nhapMang(int arr[], int &amp;n)
+{
+	// khởi tạo số ngẫu nhiên
+	srand(time(NULL));
+
+	cout &lt;&lt; &quot;Nhap so luong phan tu n : &quot;;
+	cin &gt;&gt; n;
+
+	// khởi tạo ngẫu nhiên từng phần tử từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		arr[i] = rand();
+	}
+}
+
+// hàm xuất mảng
+void xuatMang(int arr[], int n)
+{
+	// xuất từng phần tử cho mảng từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		cout &lt;&lt; &quot;array[&quot; &lt;&lt; i &lt;&lt; &quot;] = &quot; &lt;&lt; arr[i] &lt;&lt; endl;
+	}
+}
+
+// sao chép mảng nguồn sang mảng đích
+void saoChepMangMotChieu(int arrDest[], int arrSource[], int n)
+{
+	for (int i = 0; i &lt; n; i++)
+	{
+		arrDest[i] = arrSource[i];
+	}
+}</mydatabase:Sao_chép>
+        <mydatabase:Sắp_xếp>Ý tưởng: Sử dụng 2 biến i và j để so sánh tất cả cặp phần tử với nhau và hoán vị các cặp nghịch thế (sai thứ tự).
+
+Code:
+#include &lt;iostream&gt;
+#include &lt;cstdlib&gt; // for srand() and rand()
+#include &lt;ctime&gt; // for time()
+#include &lt;string&gt;
+using namespace std;
+
+// định nghĩa số phần tử mảng
+#define MAX 1000
+
+// khai báo prototype
+void nhapMang(int arr[], int &amp;n);
+void xuatMang(int arr[], int n);
+void hoanVi(int &amp;a, int &amp;b);
+void sapXepTang(int arr[], int n);
+
+int main()
+{
+	int myArray[MAX]; // mảng myArray có MAX phần tử
+	int nSize; // nSize là số phần tử được sử dụng, do user nhập
+
+	// nhập mảng myArray tự động
+	nhapMang(myArray, nSize);
+
+	// xuất mảng myArray
+	cout &lt;&lt; &quot;myArray: &quot; &lt;&lt; endl;
+	xuatMang(myArray, nSize);
+
+	// sắp xếp mảng tăng
+	sapXepTang(myArray, nSize);
+
+	return 0;
+}
+
+// hàm nhập mảng
+void nhapMang(int arr[], int &amp;n)
+{
+	// khởi tạo số ngẫu nhiên
+	srand(time(NULL));
+
+	cout &lt;&lt; &quot;Nhap so luong phan tu n : &quot;;
+	cin &gt;&gt; n;
+
+	// khởi tạo ngẫu nhiên từng phần tử từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		arr[i] = rand();
+	}
+}
+
+// hàm xuất mảng
+void xuatMang(int arr[], int n)
+{
+	// xuất từng phần tử cho mảng từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		cout &lt;&lt; &quot;array[&quot; &lt;&lt; i &lt;&lt; &quot;] = &quot; &lt;&lt; arr[i] &lt;&lt; endl;
+	}
+}
+
+// hoán vị giá trị 2 biến số
+void hoanVi(int &amp;a, int &amp;b)
+{
+	int temp = a;
+	a = b; 
+	b = temp;
+}
+
+// sắp xếp mảng tăng dần bằng thuật toán interchange sort
+void sapXepTang(int arr[], int n)
+{
+	for (int i = 0; i &lt; n - 1; i++)
+	{
+		for (int j = i + 1; j &lt; n; j++)
+		{
+			if (arr[i] &gt; arr[j])
+				hoanVi(arr[i], arr[j]);
+		}
+	}
+}</mydatabase:Sắp_xếp>
+        <mydatabase:Thuộc_về>Chương 6</mydatabase:Thuộc_về>
+        <mydatabase:Thêm_và_xóa_một_phần_tử>Ý tưởng:
+Xóa 1 phần tử trong mảng:
+-“Kéo” các phần tử bên phải vị trí idx sang trái 1 vị trí.
+-Giảm n xuống 1 đơn vị.
+Code:
+#include &lt;iostream&gt;
+#include &lt;cstdlib&gt; // for srand() and rand()
+#include &lt;ctime&gt; // for time()
+#include &lt;string&gt;
+using namespace std;
+
+// định nghĩa số phần tử mảng
+#define MAX 1000
+
+// khai báo prototype
+void nhapMang(int arr[], int &amp;n);
+void xuatMang(int arr[], int n);
+void xoaMotPhanTuTrongMang(int a[], int &amp;n, int idx);
+
+int main()
+{
+	int myArray[MAX]; // mảng myArray có MAX phần tử
+	int nSize; // nSize là số phần tử được sử dụng, do user nhập
+
+	// nhập mảng myArray tự động
+	nhapMang(myArray, nSize);
+
+	// xuất mảng myArray
+	cout &lt;&lt; &quot;myArray: &quot; &lt;&lt; endl;
+	xuatMang(myArray, nSize);
+
+	// xóa một phần tử trong mảng tại vị trí idx
+	int idx;
+	cout &lt;&lt; &quot;Nhap vi tri can xoa: &quot;;
+	cin &gt;&gt; idx;
+
+	xoaMotPhanTuTrongMang(myArray, nSize, idx);
+
+	// xuất mảng sau khi xóa
+	cout &lt;&lt; &quot;myArray: &quot; &lt;&lt; endl;
+	xuatMang(myArray, nSize);
+
+	return 0;
+}
+
+// hàm nhập mảng
+void nhapMang(int arr[], int &amp;n)
+{
+	// khởi tạo số ngẫu nhiên
+	srand(time(NULL));
+
+	cout &lt;&lt; &quot;Nhap so luong phan tu n : &quot;;
+	cin &gt;&gt; n;
+
+	// khởi tạo ngẫu nhiên từng phần tử từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		arr[i] = rand();
+	}
+}
+
+// hàm xuất mảng
+void xuatMang(int arr[], int n)
+{
+	// xuất từng phần tử cho mảng từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		cout &lt;&lt; &quot;array[&quot; &lt;&lt; i &lt;&lt; &quot;] = &quot; &lt;&lt; arr[i] &lt;&lt; endl;
+	}
+}
+
+// xóa một phần tử trong mảng tại vị trí idx
+void xoaMotPhanTuTrongMang(int a[], int &amp;n, int idx)
+{
+	if (idx &gt;= 0 &amp;&amp; idx &lt; n)
+	{
+		for (int i = idx; i &lt; n - 1; i++)
+			a[i] = a[i + 1];
+		n--;
+	}
+}
+
+Thêm 1 phần tử trong mảng:
+-“Đẩy” các phần tử bắt đầu tại vị trí idx sang phải 1 vị trí.
+-Đưa x vào vị trí idx trong mảng.
+-Tăng n lên 1 đơn vị.
+Code:
+#include &lt;iostream&gt;
+#include &lt;cstdlib&gt; // for srand() and rand()
+#include &lt;ctime&gt; // for time()
+#include &lt;string&gt;
+using namespace std;
+
+// định nghĩa số phần tử mảng
+#define MAX 1000
+
+// khai báo prototype
+void nhapMang(int arr[], int &amp;n);
+void xuatMang(int arr[], int n);
+void themMotPhanTuVaoMang(int a[], int &amp;n, int idx, int x);
+
+int main()
+{
+	int myArray[MAX]; // mảng myArray có MAX phần tử
+	int nSize; // nSize là số phần tử được sử dụng, do user nhập
+
+	// nhập mảng myArray tự động
+	nhapMang(myArray, nSize);
+
+	// xuất mảng myArray
+	cout &lt;&lt; &quot;myArray: &quot; &lt;&lt; endl;
+	xuatMang(myArray, nSize);
+
+	// thêm 1 phần tử vào mảng
+	int idx;
+	cout &lt;&lt; &quot;Nhap vi tri can them: &quot;;
+	cin &gt;&gt; idx;
+
+	int x;
+	cout &lt;&lt; &quot;Nhap gia tri can them: &quot;;
+	cin &gt;&gt; x;
+	themMotPhanTuVaoMang(myArray, nSize, idx, x);
+
+	// xuất mảng sau khi thêm
+	cout &lt;&lt; &quot;myArray: &quot; &lt;&lt; endl;
+	xuatMang(myArray, nSize);
+
+	return 0;
+}
+
+// hàm nhập mảng
+void nhapMang(int arr[], int &amp;n)
+{
+	// khởi tạo số ngẫu nhiên
+	srand(time(NULL));
+
+	cout &lt;&lt; &quot;Nhap so luong phan tu n : &quot;;
+	cin &gt;&gt; n;
+
+	// khởi tạo ngẫu nhiên từng phần tử từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		arr[i] = rand();
+	}
+}
+
+// hàm xuất mảng
+void xuatMang(int arr[], int n)
+{
+	// xuất từng phần tử cho mảng từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		cout &lt;&lt; &quot;array[&quot; &lt;&lt; i &lt;&lt; &quot;] = &quot; &lt;&lt; arr[i] &lt;&lt; endl;
+	}
+}
+
+// thêm phần tử x vào mảng tại vị trí idx
+void themMotPhanTuVaoMang(int a[], int &amp;n, int idx, int x)
+{
+	if (idx &gt;= 0 &amp;&amp; idx &lt;= n)
+	{
+		for (int i = n; i &gt; idx; i--)
+			a[i] = a[i - 1];
+		a[idx] = x;
+		n++;
+	}
+}</mydatabase:Thêm_và_xóa_một_phần_tử>
+        <mydatabase:Tìm_kiếm_phần_tử>Ý tưởng: Xét từng phần của mảng myArray. Nếu phần tử đang xét bằng x thì trả về vị trí đó. Nếu không tìm được thì trả về -1.
+ 
+Code: 
+#include &lt;iostream&gt;
+#include &lt;cstdlib&gt; // for srand() and rand()
+#include &lt;ctime&gt; // for time()
+#include &lt;string&gt;
+using namespace std;
+
+// định nghĩa số phần tử mảng
+#define MAX 1000
+
+// khai báo prototype
+void nhapMang(int arr[], int &amp;n);
+void xuatMang(int arr[], int n);
+int timKiemPhanTuDauTien(int arr[], int n, int x);
+
+int main()
+{
+	int myArray[MAX]; // mảng myArray có MAX phần tử
+	int nSize; // nSize là số phần tử được sử dụng, do user nhập
+
+	// nhập mảng myArray tự động
+	nhapMang(myArray, nSize);
+
+	// xuất mảng myArray
+	cout &lt;&lt; &quot;myArray: &quot; &lt;&lt; endl;
+	xuatMang(myArray, nSize);
+
+	int x;
+	cout &lt;&lt; &quot;Nhap phan tu x can tim: &quot;;
+	cin &gt;&gt; x;
+
+	// tìm kiếm phần tử x đầu tiên trong mảng
+	int idx = timKiemPhanTuDauTien(myArray, nSize, x);
+	if (idx != -1)
+		cout &lt;&lt; &quot;x nam tai vi tri thu &quot; &lt;&lt; idx &lt;&lt; endl;
+
+	return 0;
+}
+
+// hàm nhập mảng
+void nhapMang(int arr[], int &amp;n)
+{
+	// khởi tạo số ngẫu nhiên
+	srand(time(NULL));
+
+	cout &lt;&lt; &quot;Nhap so luong phan tu n : &quot;;
+	cin &gt;&gt; n;
+
+	// khởi tạo ngẫu nhiên từng phần tử từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		arr[i] = rand();
+	}
+}
+
+// hàm xuất mảng
+void xuatMang(int arr[], int n)
+{
+	// xuất từng phần tử cho mảng từ chỉ số 0 đến n – 1
+	for (int i = 0; i &lt; n; i++)
+	{
+		cout &lt;&lt; &quot;array[&quot; &lt;&lt; i &lt;&lt; &quot;] = &quot; &lt;&lt; arr[i] &lt;&lt; endl;
+	}
+}
+
+// tìm kiếm phần tử x đầu tiên trong mảng
+int timKiemPhanTuDauTien(int arr[], int n, int x)
+{
+	for (int i = 0; i &lt; n; i++)
+	{
+		if (arr[i] == x)
+			return i;
+	}
+	
+	return -1;
+}</mydatabase:Tìm_kiếm_phần_tử>
+        <mydatabase:Xuất_các_phần_tử>Để truy xuất giá trị của phần tử trong mảng, ta sử dụng cú pháp:
+&lt;tên biến mảng&gt;[&lt;chỉ số thứ i&gt;];
+Trong đó:
+
+&lt;chỉ số thứ i&gt; là chỉ số phần tử trong mảng.
+Nếu mảng có N phần tử, &lt;chỉ số thứ i&gt; sẽ nằm trong khoảng từ 0 đến N – 1.
+
+Các truy xuất:
+
+Hợp lệ: array[0], array[1], array[2], array[3] =&gt;khi truy xuất một phần tử mảng, luôn đảm bảo chỉ số của phần tử đó là hợp lệ trong phạm vi của mảng.
+Không hợp lệ: array[-1], array[4], array[5], … =&gt; cho kết quả không như mong muốn (có thể gây chết chương trình).</mydatabase:Xuất_các_phần_tử>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Mảng_2_chiều -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Mảng_2_chiều">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Mảng"/>
+        <mydatabase:Cách_sử_dụng>&quot;Mảng của 1 mảng
+int matrix[20][20]&quot;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khai_báo>Cú pháp:
+&lt;kiểu dữ liệu&gt; &lt;tên biến mảng&gt;[&lt;số phần tử dòng&gt;][&lt;số phần tử cột&gt;];
+
+Lưu ý:
+
+Phải xác định &lt;số phần tử dòng&gt; và &lt;số phần tử cột&gt; cụ thể (hằng số) khi khai báo.
+Nên sử dụng chỉ thị tiền xử lý #define để định nghĩa &lt;số phần tử&gt; mảng.
+Tổng số phần tử = &lt;số phần tử dòng&gt; * &lt;số phần tử cột&gt;.
+Bộ nhớ sử dụng = &lt;tổng số phần tử&gt; * sizeof(&lt;kiểu cơ sở&gt;).
+
+int a[100][250], b[102][230];
+float a[23][32]</mydatabase:Khai_báo>
+        <mydatabase:Khái_niệm>Là một mảng đa chiều (mảng của mảng).
+
+Mảng mà các phần tử trong mảng là mảng 1 chiều.</mydatabase:Khái_niệm>
+        <mydatabase:Khởi_tạo_giá_trị_cho_mảng>Cách 1: Khởi tạo giá trị cho mọi phần tử của mảng
+int a[4][3] =
+{
+     { 213,344, 233 },   // row 1
+     { 723, 122, 858 },  // row 2
+     {213,4,213},          // row3
+     {1221,23,42}         // row4
+};
+
+Cách 2: Khởi tạo giá trị cho một số phần tử đầu mảng
+int a[2][3] =
+{
+     { 1 },             // row 1
+     { 72,3,48 }   // row 2
+};
+
+Cách 3: Khởi tạo giá trị 0 cho mọi phần tử của mảng
+int a[23][32] = {};
+
+Cách 4: Tự động xác định số lượng phần tử
+int a[][3] =
+{
+     { 213,344, 233 },   // row 1
+     { 723, 122, 858 },  // row 2
+     {213,4,213},          // row3
+     {1221,23,42}         // row4
+};
+Lưu ý: Không thể bỏ trống cả 2 giá trị cột hoặc hàng</mydatabase:Khởi_tạo_giá_trị_cho_mảng>
+        <mydatabase:Nhập_các_phần_tử>Cú pháp:
+&lt;tên biến mảng&gt;[&lt;chỉ số dòng thứ i&gt;][&lt;chỉ số cột thứ j&gt;] = &lt;giá trị&gt;;
+
+Code:
+#include &lt;iostream&gt;
+using namespace std;
+
+#define ROW 100 // Max row
+#define COL 100 // Max column
+
+int main()
+{
+	// khởi tạo mảng 2 dòng 3 cột
+	int arr[ROW][COL];
+	int row, col;
+
+	// nhập số dòng, cột
+	cout &lt;&lt; &quot;Nhap so dong: &quot;;
+	cin &gt;&gt; row;
+	cout &lt;&lt; &quot;Nhap so cot: &quot;;
+	cin &gt;&gt; col;
+
+	// nhập mảng 2 chiều
+	cout &lt;&lt; &quot;Nhap mang:&quot; &lt;&lt; endl;
+	for (int i = 0; i &lt; row; i++)
+	{
+		for (int j = 0; j &lt; col; j++)
+		{
+		          cout &lt;&lt; &quot;a[&quot; &lt;&lt; i &lt;&lt; &quot;][&quot; &lt;&lt; j &lt;&lt; &quot;] = &quot;;
+			cin &gt;&gt; arr[i][j];
+		}
+	}
+
+	// xuất mảng 2 chiều
+	for (int i = 0; i &lt; row; i++)
+	{
+		for (int j = 0; j &lt; col; j++)
+		{
+		          cout &lt;&lt; arr[i][j] &lt;&lt; &quot; &quot;;
+		}
+		cout &lt;&lt; endl;
+	}
+
+	return 0;
+}</mydatabase:Nhập_các_phần_tử>
+        <mydatabase:Thuộc_về>Chương 6</mydatabase:Thuộc_về>
+        <mydatabase:Truyển_mảng_vào_hàm>-Tham số kiểu mảng trong khai báo hàm giống như khai báo biến mảng.
+void NhapMang(int a[100][100]);
+-Tham số kiểu mảng truyền cho hàm chính là địa chỉ của phần tử đầu tiên của mảng.
+                  Có thể bỏ số lượng phần tử dòng hoặc sử dụng con trỏ.
+                  Mảng có thể thay đổi nội dung sau khi thực hiện hàm.
+void NhapMang(int a[][100]);
+void NhapMang(int (*a)[100]);
+-Số lượng phần tử thực sự truyền qua biến khác.
+void NhapMang(int a[100][100], int m, int n);
+void NhapMang(int a[][100], int m, int n);
+void NhapMang(int (*a)[100], int m, int n);</mydatabase:Truyển_mảng_vào_hàm>
+        <mydatabase:Tác_dụng>Truy,xuất, tìm kiếm, lưu trữ, truyền giá trị</mydatabase:Tác_dụng>
+        <mydatabase:Xuất_các_phần_tử>Để truy xuất giá trị của phần tử trong mảng, ta sử dụng cú pháp
+&lt;tên biến mảng&gt;[&lt;chỉ số dòng thứ i&gt;][&lt;chỉ số cột thứ j&gt;];
+int a[27][63] // 27 dòng, 63 cột
+
+Các truy xuất:
+
+Hợp lệ: a[0][0], a[0][1], …, a[26][61], a[26][62]
+Không hợp lệ: a[-1][0], a[0][-1], a[232][33], … =&gt; cho kết quả không như mong muốn (có thể gây chết chương trình).
+Code:
+#include &lt;iostream&gt;
+using namespace std;
+
+#define ROW 2 // Max row
+#define COL 3  // Max column
+
+
+int main()
+{
+	// khởi tạo mảng 2 dòng 3 cột
+	int arr[ROW][COL]
+	{
+		{ 6, 4, 3 }, // row 1
+		{ 7, 2, 8 }  // row 2
+	};
+
+	// xuất giá trị các phần tử mảng
+	for (int i = 0; i &lt; ROW; i++)
+	{
+                                         for (int j = 0; j &lt; COL; j++)
+	           {
+	                    cout &lt;&lt; &quot;a[&quot; &lt;&lt; i &lt;&lt; &quot;][&quot;&lt;&lt; j &lt;&lt;&quot;] = &quot; &lt;&lt; arr[i][j] &lt;&lt; endl;
+	           }
+	}
+
+	return 0;
+}</mydatabase:Xuất_các_phần_tử>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Mảng_ký_tự -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Mảng_ký_tự">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Mảng_1_chiều"/>
+        <mydatabase:Khai_báo>-Cú pháp khai báo tương tự như cách khai báo mảng 1 chiều.
+char szFullName[30]; // Dài 29 ký tự
+char szDayOfBirth[9]; // Dài 8 ký tự
+
+Mảng ký tự kết thúc bằng ký tự ‘\0’ (null) =&gt; độ dài chuỗi = kích thước mảng –1</mydatabase:Khai_báo>
+        <mydatabase:Khái_niệm>Mảng một chiều trong đó kiểu dữ liệu là ký tự
+Ngôn ngữ C++ có 2 loại chuỗi ký tự khác nhau:
+
+-Chuỗi ký tự std::string được cài đặt trong một lớp của thư viện chuẩn STL.
+-Chuỗi ký tự C-style nguyên bản từ ngôn ngữ C.</mydatabase:Khái_niệm>
+        <mydatabase:Khởi_tạo_giá_trị_cho_mảng>-Cách 1: Khởi tạo với độ dài cụ thể.
+char strz[10] = { &apos;r&apos;, &apos;t&apos;, &apos;e&apos;, &apos;e&apos;, &apos;v&apos;, &apos;\0&apos; };
+char strz[10] = &quot;rteev&quot;; // Tự động thêm &apos;\0&apos; vào cuối chuỗi
+Cách 2: Khởi tạo tự động xác định độ dài.
+char strz[] = { &apos;r&apos;, &apos;t&apos;, &apos;e&apos;, &apos;e&apos;, &apos;v&apos;, &apos;\0&apos; };
+char strz[] = &quot;rteev&quot;; // Tự động thêm &apos;\0&apos; vào cuối chuỗi</mydatabase:Khởi_tạo_giá_trị_cho_mảng>
+        <mydatabase:Nhập_các_phần_tử>Khi đọc thông tin từ bàn phím, đối tượng std::cin sẽ đọc các ký tự cho đến khi gặp ký tự khoảng trắng ‘ ’, hoặc ký tự enter ‘\n’.
+
+Code:
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	char stre[50];
+
+	cout &lt;&lt; &quot;Nhap ho ten: &quot;;
+	cin &gt;&gt; stre;
+
+	cout &lt;&lt; &quot;Ho ten cua ban la: &quot; &lt;&lt; stre &lt;&lt; endl;
+
+	return 0;
+}
+
+Hàm std::cin.getline() sẽ đọc tất cả các ký tự từ bàn phím (bao gồm khoảng trắng ‘ ‘) cho đến khi gặp ký tự enter ‘\n’ (mặc định). Nếu số lượng ký tự nhập vào lớn hơn độ dài truyền vào hàm, mọi ký tự dư thừa sẽ bị loại bỏ.
+
+Code:
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	char strAddress[20];
+
+	cout &lt;&lt; &quot;Nhap dia chi: &quot;;
+	cin.getline(strAddress, 20);
+
+	cout &lt;&lt; &quot;Dia chi cua ban la: &quot; &lt;&lt; strAddress &lt;&lt; endl;
+
+	return 0;
+}</mydatabase:Nhập_các_phần_tử>
+        <mydatabase:Thuộc_về>Chương 6</mydatabase:Thuộc_về>
+        <mydatabase:Xuất_các_phần_tử>Không giống như mảng 1 chiều thông thường cần sử dụng vòng lặp để xuất từng phần tử.
+Khi in mảng ký tự, đối tượng std::cout sẽ in tất cả ký tự cho đến khi gặp ký tự ‘\0’ (null).
+
+Code:
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	// 0 1 2 3 4  5 6
+	// T e e m o a \0
+	char stre[] = &quot;Teemoa&quot;;
+	cout &lt;&lt;stre &lt;&lt; endl; // &quot;Teemoa&quot;
+
+	// 0 1 2 3  4 5  6  7  8  9
+	// T e e m o a  \0 \0 \0 \0
+	char stry[10] = &quot;Teemoa&quot;;
+	cout &lt;&lt; stry &lt;&lt; endl; // &quot;Teemoa&quot;
+
+	// ký tự stry[6] là &apos;\0&apos; (null), nên chỉ in chuỗi đến vị trí 5
+	
+	return 0;
+}</mydatabase:Xuất_các_phần_tử>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Ngôn_ngữ_lập_trình -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Ngôn_ngữ_lập_trình">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_1"/>
+        <mydatabase:Khái_niệm>Là ngôn ngữ sử dụng để viết chương trình cho máy tính</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 1</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Ngôn_ngữ_lập_trình_cấp_cao -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Ngôn_ngữ_lập_trình_cấp_cao">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Ngôn_ngữ_lập_trình"/>
+        <mydatabase:Khái_niệm>Là ngôn ngữ lập trình có tính tương thích cao hơn ngôn ngữ lập trình cấp thấp, dễ diễn đạt các ý tưởng bài toán, được hỗ trợ bằng hàm cơ bản</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Ngôn_ngữ_lập_trình_cấp_thấp -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Ngôn_ngữ_lập_trình_cấp_thấp">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Ngôn_ngữ_lập_trình"/>
+        <mydatabase:Khái_niệm>Là ngôn ngữ lập trình phụ thuộc vào từng nhóm máy cụ thể, vì vậy không có tính tương thích</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Người_viết_chương_trình -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Người_viết_chương_trình">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <mydatabase:Khái_niệm>Là người tạo ra những chương trình máy tính</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 1</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tham_số -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tham_số">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Hàm"/>
+        <mydatabase:Khái_niệm>Là các thông số mà hàm nhận vào</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 5</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thân_hàm -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thân_hàm">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Hàm"/>
+        <mydatabase:Khái_niệm>Chương 5</mydatabase:Khái_niệm>
+        <mydatabase:Khái_niệm>Đối với C++ thì thân hàm đặt giữa { và } chứa các câu lệnh hàm sẽ thực hiện (Phải có return nếu không phỉa hàm void ).</mydatabase:Khái_niệm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tiêu_đề_hàm -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tiêu_đề_hàm">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Hàm"/>
+        <mydatabase:Khái_niệm>Dòng đầu tiên của hàm(giống nguyên mẫu hàm nhưng không có; và bắt buộc phải có tên tham số.</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 5</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Toán_tử_delete -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Toán_tử_delete">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ"/>
+        <mydatabase:Cách_sử_dụng>delete&lt;Tên_con_Trỏ&gt;;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Tác_dụng>Giải phóng vùng nhớ do con trỏ trỏ tới</mydatabase:Tác_dụng>
+        <mydatabase:Tên_chương>Chương 7</mydatabase:Tên_chương>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Toán_tử_new -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Toán_tử_new">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Con_trỏ"/>
+        <mydatabase:Cách_sử_dụng>&quot;&lt;type&gt; *&lt;tên_con_trỏ&gt; = new&lt;type&gt;;
+&lt;type&gt; *&lt;tên_con_trỏ&gt; = new&lt;type&gt;(dự_liệu); 
+int *p;
+p=new int(99);&quot;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Tác_dụng>Cấp phát động cho biến</mydatabase:Tác_dụng>
+        <mydatabase:Tên_chương>Chương 7</mydatabase:Tên_chương>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Typedef -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Typedef">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Dữ_liệu"/>
+        <mydatabase:Cách_sử_dụng>typedef int songuyen;
+int a; // tương đương songuyen a;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Dùng để đặt tên mới cho 1 kiểu dữ liệu có sẵn</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+        <mydatabase:Tác_dụng>Đổi tên 1 kiểu dữ liệu đã có</mydatabase:Tác_dụng>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tập_tin -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tập_tin">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_8"/>
+        <mydatabase:Khái_niệm>Tập hợp thông tin (dữ liệu) được tổ chức theo một dạng xác định với tên được định danh</mydatabase:Khái_niệm>
+        <mydatabase:Tác_dụng>Đóng,mở,ghi dữ liệu</mydatabase:Tác_dụng>
+        <mydatabase:Tên_chương>Chương 8</mydatabase:Tên_chương>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Từ_khóa -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Từ_khóa">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <mydatabase:Cách_sử_dụng>const, enum, signed, struct, typedef, unsigned, char, double, float, int, long, short, void, case, default, else, if, switch, do, for, while, break, continue, goto, return</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Chuỗi ký tự thông thường không thể đặt tên cho các biến, hàm, tên chương trình con</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+        <mydatabase:Tác_dụng>Biểu hiện mục đích</mydatabase:Tác_dụng>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Vòng_lặp_do_while -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Vòng_lặp_do_while">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cấu_trúc_lặp"/>
+        <mydatabase:Cài_đặt>Cấu trúc vòng lặp
+do
+{
+    statement;
+}
+while (condition);
+
+Biểu thức điều kiện xuất hiện ở cuối cùng của vòng lặp, vì vậy các lệnh trong vòng lặp sẽ được thực thi ít nhất 1 lần. Sau đó điều kiện lặp sẽ được kiểm tra, nếu điều kiện là true, CPU sẽ quay lại thực thi khối lệnh bên trong vòng lặp. Tiến trình này lặp đi lặp lại tới khi nào điều kiện lặp trở thành false.
+
+Ví dụ:
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	int n;
+	do 
+	{
+	            cin&gt;&gt;n;
+	} while (n&lt;2000);
+	return 0;
+}</mydatabase:Cài_đặt>
+        <mydatabase:Ưu_điểm>Bắt buộc phải thực hiện vòng lặp ít nhất 1 lần</mydatabase:Ưu_điểm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Định_danh -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Định_danh">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_trình"/>
+        <mydatabase:Cách_sử_dụng>&quot;Không được trùng từ khóa
+Ký tự đầu tiên là các chữ cái hoặc dấu _
+Tối đa 255 ký tự
+Không được sử dụng khoảng trắng và không phân biệt hoa thường
+Ví dụ: x, baigiang, _ThuongNhan&quot;</mydatabase:Cách_sử_dụng>
+        <mydatabase:Khái_niệm>Một dãy ký tự dùng để chỉ tên hằng, biến, kiểu dữ liệu, hàm - Được tạo thành các chữ cái, chữ số và dấu gạch nối _</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+        <mydatabase:Tác_dụng>Đặt tên</mydatabase:Tác_dụng>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Đối_số -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Đối_số">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Hàm"/>
+        <mydatabase:Khái_niệm>Là thông số được đưa vào hàm khi tiến hành gọi hàm</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 5</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bubble_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bubble_sort">
+        <mydatabase:Độ_phức_tạp_của_thuật_toán>O(n^2)</mydatabase:Độ_phức_tạp_của_thuật_toán>
+        <mydatabase:Cài_đặt>Bước 1: i = 0;// lần xử lý đầu tiên
+Bước 2: j = N-1;//Duyệt từ cuối dãy ngược về vị trí i
+Trong khi (j &gt; i) thực hiện:
+     \tNếu a[j]&lt;a[j-1]
+            \t\tDoicho(a[j],a[j-1]);
+      \tj = j-1;
+Bước 3: i = i+1;// lần xử lý kế tiếp
+    \tNếu i &gt;=N-1: Hết dãy. Dừng
+    \tNgược lại: Lặp lại Bước 2.</mydatabase:Cài_đặt>
+        <mydatabase:Tên_chương>Chương 2</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_1">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_2 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_2">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_3 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_4 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_4">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_5 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_5">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_6 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_6">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_7 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_7">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_8 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_8">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Dạng_lưu_đồ -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Dạng_lưu_đồ">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán"/>
+        <mydatabase:Khái_niệm>Là hệ thống các nút, cung hình dạng khác nhau thể hiện các chức năng khác nhau</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Dạng_mã_giả -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Dạng_mã_giả">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán"/>
+        <mydatabase:Khái_niệm>Ngôn ngữ tựa ngôn ngữ lập trình</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Dạng_ngôn_ngữ_tự_nhiên -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Dạng_ngôn_ngữ_tự_nhiên">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán"/>
+        <mydatabase:Khái_niệm>Ngôn ngữ tự nhiên thông qua các bước được tuần tự liệt kê để biễu diễn thuật toán.
+Là hệ thống các nút, cung hình dạng khác nhau thể hiện các chức năng khác nhau</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Hàm_có_tham_số,_có_trả_về_giá_trị -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Hàm_có_tham_số,_có_trả_về_giá_trị">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Hàm"/>
+        <mydatabase:Cài_đặt>#include &lt;stdio.h&gt;
+int KTNT(int n);
+int main()
+{
+    int n;
+    bool flag;
+    printf(&quot;Nhap vao 1 so nguyen duong: &quot;);
+    scanf(&quot;%d&quot;,&amp;n);
+    // Tham số n được truyền vào hàm KTNT()
+    //Giá trị trả về được gắn cho biến flag 
+    flag = KTNT(n);
+    if(flag == 1)
+        printf(&quot;%d khong la so nguyen to&quot;,n);
+    else
+        printf(&quot;%d la so nguyen to&quot;,n);
+    return 0;
+}
+//giá trị trả về kiểu boolean
+bool KTNT(int n)
+{
+    int i;
+    for(i=2; i &lt;= n/2; ++i)
+    {
+        if(n%i == 0)
+            return 1;
+    }
+    return 0;
+}</mydatabase:Cài_đặt>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Hàm_có_tham_số,_không_trả_về_giá_trị -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Hàm_có_tham_số,_không_trả_về_giá_trị">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Hàm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Hàm_không_có_tham_sô,_có_trả_về_giá_trị -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Hàm_không_có_tham_sô,_có_trả_về_giá_trị">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Hàm"/>
+        <mydatabase:Cài_đặt>#include &lt;stdio.h&gt;
+int getInteger();
+int main()
+{
+    int n;
+    n = getInt();    // không có tham số truyền vào
+    printf(&quot;%d la so vua nhap&quot;, n);
+    return 0;
+}
+// trả về giá trị integer
+int getInt()       
+{
+    int n;
+    printf(&quot;Nhap mot do nguyen: &quot;);
+    scanf(&quot;%d&quot;,&amp;n);
+    return n;
+}</mydatabase:Cài_đặt>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Hàm_không_có_tham_số,_không_có_giá_trị_trả_về -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Hàm_không_có_tham_số,_không_có_giá_trị_trả_về">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Hàm"/>
+        <mydatabase:Cài_đặt>#include &lt;stdio.h&gt;
+void checkPrimeNumber();
+int main()
+{
+    checkPrimeNumber();    // không có tham số được truyền vào
+    return 0;
+}
+
+// Kiểu void là kiểu mà hàm không trả về giá trị
+void checkPrimeNumber()
+{
+    int n, i, flag = 0;
+    printf(&quot;Nhập một số nguyên dương: &quot;);
+    scanf(&quot;%d&quot;,&amp;n);
+    for(i=2; i &lt;= n/2; ++i)
+    {
+        if(n%i == 0)
+        {
+            flag = 1;
+        }
+    }
+    if (flag == 1)
+        printf(&quot;%d khong la so nguyen to.&quot;, n);
+    else
+        printf(&quot;%d la so nguyen to.&quot;, n);
+}</mydatabase:Cài_đặt>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <mydatabase:Khái_niệm>Được khai báo tường minh, có tên gọi
+Tồn tại trong phạm vi khai báo
+Được cấp phát trong stack
+Kích thước không đổi =&gt; không tận dụng hiệu quả bộ nhớ
+Khi biết chắc nhu cầu sử dụng đối tượng trước khi thực sự xử lý : dùng biến không động</mydatabase:Khái_niệm>
+    </rdf:Description>
+    <rdf:Description>
+        <mydatabase:Khái_niệm></mydatabase:Khái_niệm>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_1">
+        <mydatabase:Thuộc_về>Môn nhập môn lập trình</mydatabase:Thuộc_về>
+        <mydatabase:Tên_chương>Giới thiệu tổng quan về môn học</mydatabase:Tên_chương>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_2">
+        <mydatabase:Thuộc_về>Môn nhập môn lập trình</mydatabase:Thuộc_về>
+        <mydatabase:Tên_chương>Thuật toán</mydatabase:Tên_chương>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3">
+        <mydatabase:Tên_chương>Kiểu dữ liệu cơ bản</mydatabase:Tên_chương>
+        <mydatabase:Thuộc_về>Môn nhập môn lập trình</mydatabase:Thuộc_về>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_4">
+        <mydatabase:Thuộc_về>Môn nhập môn lập trình</mydatabase:Thuộc_về>
+        <mydatabase:Tên_chương>Cấu trúc điều khiển</mydatabase:Tên_chương>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_5">
+        <mydatabase:Tên_chương>Hàm và tham số của hàm</mydatabase:Tên_chương>
+        <mydatabase:Thuộc_về>Môn nhập môn lập trình</mydatabase:Thuộc_về>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_6">
+        <mydatabase:Tên_chương>Mảng và cấu trúc</mydatabase:Tên_chương>
+        <mydatabase:Thuộc_về>Môn nhập môn lập trình</mydatabase:Thuộc_về>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_7">
+        <mydatabase:Tên_chương>Con trỏ</mydatabase:Tên_chương>
+        <mydatabase:Thuộc_về>Môn nhập môn lập trình</mydatabase:Thuộc_về>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_8">
+        <mydatabase:Thuộc_về>Môn nhập môn lập trình</mydatabase:Thuộc_về>
+        <mydatabase:Tên_chương>Tập tin</mydatabase:Tên_chương>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
